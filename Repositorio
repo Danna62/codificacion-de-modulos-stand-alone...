@@ -1,0 +1,57 @@
+java.headerBienvenidad.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidad</title>
+    <Link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <php>
+    <h1 class="title"> <table></table>Bienvenidad</h1> 
+    <h2 class="h2"> Instrucciones</h2>
+    La app rockea conmigo cuenta con unas herramientas las  cuales se les explicara 
+    el manejo y funcionamiento de cada una a continuación.
+    <h2 class="h3" >Buscador</h2>
+    El buscador de musica sirve para buscar la musica y funciona de manera manual o por medio del audio. 
+    <h2 class="h4"> Reproductor</h2>
+    Reproduce la musica de forma manual o por medio de la voz del cliente.
+    <h2 class="h5" >Interfaz animada y rockera</h2>
+    La interfaz animada y rockera sirve para visualizar de forma animada la cancion que el cliente
+    esta escuchando y se activa por medio de la voz del cliente diciendo las siguientes palabras:
+    activar la interfaz animada y rockera.
+
+     <form action="file:///C:/Users/lenovo/Documents/interfaces/Buscador.html" method="get">
+      <input type="submit" value="siguiente"/> 
+     </form>
+     </php>
+   
+  </body>
+   
+  </html>
+
+style.css
+body{
+    background-color: purple;
+    
+    
+}
+.title{
+    color: brown;
+    text-align: center;
+    padding: 0 0 20px 0;
+
+}
+.h2{
+    color: rgba(221, 98, 201, 0.788);
+}
+.h3{
+    color: black;
+}
+.h4{
+    color: black;
+}
+.h5{
+    color: black;
+}
